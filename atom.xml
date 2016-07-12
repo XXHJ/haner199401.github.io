@@ -41,13 +41,13 @@
     <link href="https://haner199401.github.io/2016/07/08/vue-toast/"/>
     <id>https://haner199401.github.io/2016/07/08/vue-toast/</id>
     <published>2016-07-08T08:49:01.000Z</published>
-    <updated>2016-07-12T08:47:46.000Z</updated>
+    <updated>2016-07-12T08:50:23.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/haner199401/haner.blog/master/images/vue-toast-demo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt; Step By Step &lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;环境搭建&lt;code&gt;建议去手脚架或者github上的模板&lt;/code&gt; &lt;a href=&quot;https://github.com/haner199401/CNode-Vue&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;模板&lt;/a&gt; &lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Yeoman&lt;/a&gt; &lt;a href=&quot;http://elemefe.github.io/cooking/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cooking&lt;/a&gt; …&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;环境搭建&lt;code&gt;建议找个手脚架或者Github上的模板&lt;/code&gt;  &lt;a href=&quot;https://github.com/haner199401/CNode-Vue&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;模板&lt;/a&gt; &lt;a href=&quot;http://yeoman.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Yeoman&lt;/a&gt; &lt;a href=&quot;http://elemefe.github.io/cooking/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cooking&lt;/a&gt; …&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;安装Node环境&lt;/li&gt;
 &lt;li&gt;安装依赖包&lt;a href=&quot;https://www.npmjs.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;npm&lt;/a&gt;,&lt;a href=&quot;https://npm.taobao.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;cnpm&lt;/a&gt;,&lt;a href=&quot;http://cn.vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;vue&lt;/a&gt;,&lt;a href=&quot;https://babeljs.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;babel&lt;/a&gt; …&lt;/li&gt;
