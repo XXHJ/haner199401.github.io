@@ -1,7 +1,13 @@
 <!DOCTYPE html><html lang="zh-cn"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> My Calendar · Haner.Du</title><meta name="description" content="My Calendar - Haner"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">博客</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">归档</a></li><li class="nav-list-item"><a href="https://github.com/haner199401" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><section class="container"><div class="post"><article class="post-block"><h1 class="post-title">My Calendar</h1><div class="post-info">2016年8月22日</div><div class="post-content"><p><img src="https://raw.githubusercontent.com/haner199401/haner.blog/master/images/my-calendar.gif" alt=""><br><a id="more"></a></p>
 <h4 id="嗯哼"><a href="#嗯哼" class="headerlink" title="嗯哼"></a>嗯哼</h4><pre><code>兼容IE8,可添加自定义任务
  希望没事的小伙伴一块锦上添花呗^_~
-</code></pre><h4 id="唠叨唠叨我怎么想的"><a href="#唠叨唠叨我怎么想的" class="headerlink" title="唠叨唠叨我怎么想的"></a>唠叨唠叨我怎么想的</h4><ul>
+</code></pre><h4 id="IE中的问题"><a href="#IE中的问题" class="headerlink" title="IE中的问题"></a>IE中的问题</h4><ul>
+<li>IE 事件源兼容</li>
+<li>IE new Date() BUG</li>
+<li>IE dom.innerHTML = ‘’; BUG<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">removeAllChild:<span class="function"><span class="keyword">function</span> (<span class="params">ele</span>) </span>&#123;</div><div class="line">        <span class="keyword">while</span> (ele.hasChildNodes())&#123;</div><div class="line">            ele.removeChild(ele.lastChild);</div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h4 id="唠叨唠叨我怎么想的"><a href="#唠叨唠叨我怎么想的" class="headerlink" title="唠叨唠叨我怎么想的"></a>唠叨唠叨我怎么想的</h4><ul>
 <li>先把页面基本样子做出来（可以看到我源码里面 index.html 中注释掉的dom结构）</li>
 <li>之后想各个月有什么不同？瞄下电脑上的日历，点点呗</li>
 <li>最起码发现天数不同吧….重要的是每个月的第一天会变，之后的日期当然是依次排列。</li>
