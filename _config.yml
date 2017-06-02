@@ -74,5 +74,5 @@ deploy:
 
 #disqus_shortname: haner199401
 disqus_shortname: haner
-duoshuo: true
+duoshuo: false
 
