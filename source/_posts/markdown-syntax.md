@@ -2,7 +2,7 @@ title: Markdown 常用的语法记录
 date: 2013-01-01 16:03:22
 ---
 
-![](https://raw.githubusercontent.com/haner199401/haner199401.github.io/develop/images/25916dad435a80a3a42083d26725ca31.jpeg)
+![](https://raw.githubusercontent.com/haner199401/haner199401.github.io/develop/images/default.jpg)
 <!--more-->
 
 # 标题
