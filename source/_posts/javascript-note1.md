@@ -59,4 +59,3 @@ from: http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html
     a.call(null);
 
 ```
-
