@@ -9,13 +9,10 @@ tags:
 
 ** Step By Step **
 
-- 环境搭建`建议找个手脚架或者Github上的模板`  [模板](https://github.com/haner199401/CNode-Vue) [Yeoman](http://yeoman.io/) [Cooking](http://elemefe.github.io/cooking/) ...
- 1. 安装Node环境
- 2. 安装依赖包[npm](https://www.npmjs.com/),[cnpm](https://npm.taobao.org/),[vue](http://cn.vuejs.org/),[babel](https://babeljs.io/) ...
- 3. 运行代码,走你 ~_~
- 4. ...
- 
-- 不管别的,把静态样子整出来
+> 环境搭建`建议找个手脚架或者Github上的模板`  [模板](https://github.com/haner199401/CNode-Vue) [Yeoman](http://yeoman.io/) [Cooking](http://elemefe.github.io/cooking/) ...
+1. 安装Node环境
+2. 安装依赖包[npm](https://www.npmjs.com/),[cnpm](https://npm.taobao.org/),[vue](http://cn.vuejs.org/),[babel](https://babeljs.io/) ...
+3. 运行代码,走你 ~_~
 
 Toast.vue
 ```html
@@ -58,9 +55,9 @@ Toast.vue
     }
 </script>
 ```
+#### 如何实现单例调用
+>想一想不用VUE咋整?
 
-### 调用遇到问题,怎么多次调用组件捏??
-    想一想不用VUE咋整?
 ```JS
     let Toast = function(msg){
     
@@ -80,10 +77,12 @@ Toast.vue
     }
 ```
 
-### vue 文件中的export default
-问题来了,那要怎么让页面实现上面的效果呢,在哪里添加定时器捏...
-在vue文件中export default 会默认导出一个对象,之后经过 vue-loader进行加载(loader会帮你注册为vue中的组件并声明)
-所以在 vue 中,多次引用组件就会出现重复的dom结构
+> VUE 文件中的 export default 干了什么？
+1. 在vue文件中export default 会默认导出一个对象字面量
+2. vue-loader进行加载(loader会构造一个组件，之后便可以实例化出该组件)
+3. 所以在 vue 中,多次引用组件就会出现重复的dom结构
+
+#### 完整代码
 
 ```JS
     import Vue from 'vue';
@@ -147,6 +146,6 @@ Toast.vue
     }
 ```
 
-### O(∩_∩)O~
+#### O(∩_∩)O~
 
 
