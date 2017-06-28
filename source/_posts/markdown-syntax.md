@@ -1,5 +1,5 @@
 title: Markdown 常用的语法记录
-date: 2013-01-01 16:03:22
+date: 2014-08-10 00:00:00
 ---
 
 ![](https://raw.githubusercontent.com/haner199401/haner199401.github.io/develop/images/7bf559e2eaec148ff023f0c1c45e3fdf.gif)
