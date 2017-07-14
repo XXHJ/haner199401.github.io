@@ -80,3 +80,16 @@ date: 2014-08-10 00:00:00
 | :- | :-: | -: |
 | 居左 | 居中| 居右 |
 
+
+
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+
+---
+
+
+> [参考链接](https://guides.github.com/features/mastering-markdown/)
