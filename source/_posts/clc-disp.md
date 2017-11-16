@@ -1,9 +1,26 @@
-title: clc-disp
+title: 乘法口诀表打印
 date: 2017-07-14 09:40:31
 ---
 
 ![](https://raw.githubusercontent.com/haner199401/haner199401.github.io/develop/images/chengfakoujue.gif)
 <!--more-->
+
+``` css
+    .list {
+        font-size: 0;
+    }
+    .list .item {
+        font-size: 14px;
+        display: inline-block;
+        text-align: center;
+        width: 60px;
+        padding: 2px 5px;
+        line-height: 30px;
+        border: 1px solid gray;
+        margin: -1px -1px 0 0;
+        display: none;
+    }
+```
 
 ```js
   (function (win) {
