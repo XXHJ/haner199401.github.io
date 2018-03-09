@@ -6,15 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Haner's blog</title>
     <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @keyframes blink {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .print-content{
+
+        }
+        .print-content.end:after {
+            content: '';
+        }
+        .print-content:after {
+            content: '|';
+            animation: blink 800ms infinite;
+        }
+
+    </style>
 </head>
 <body>
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h1 class="display-4">Haner's blog</h1>
+        <h1 class="display-4">个人简历</h1>
+        <p class="lead print-content" id="info"></p>
     </div>
 </div>
-
 
 <div class="container">
     <div class="list-group">
@@ -23,5 +44,7 @@
         <a href="http://180.97.80.42:9097" target="_blank" class="list-group-item list-group-item-action">VUE完整项目 （duhan666 111111）</a>
     </div>
 </div>
+
+<script src="./print/print.js"></script>
 </body>
 </html>
