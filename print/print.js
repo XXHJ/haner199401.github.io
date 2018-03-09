@@ -140,19 +140,7 @@ Print.ACTION = {TEXT: 'text', WAIT: 'wait', DELETE: 'delete', BR: 'br', IMG: 'im
 var arr = [
     {type: Print.ACTION.TEXT, text: '哈喽，陌生人，很高兴你能打开这个网页........',time:100},
     {type: Print.ACTION.TEXT, text: '嗯嗯，这个打字插件 还没有写完，很简陋，可以各发己见，帮忙修改修改~~~~',time:100},
-    {type: Print.ACTION.TEXT, text: '目前仅能打印文字，待开发【退格，图片，延迟等待，等等 项目参考：https://github.com/mqyqingfeng/AutoType】',time:100},
-    // {type: Print.ACTION.WAIT, time: 900},
-    // {type: Print.ACTION.DELETE, num: 4},
-    // {type: Print.ACTION.TEXT, text: '，嗯!'},
-    // {type: Print.ACTION.BR, num: 3},
-    // {type: Print.ACTION.TEXT, text: '她温柔美丽，善良大方'},
-    // {type: Print.ACTION.TEXT, text: '，国色天香，沉鱼落雁，如花似玉，闭月羞花，贤良淑德，花容月貌，秋水伊人，一笑倾城，冰清玉洁，娇俏佳人，朱颜玉润，玉骨冰肌，窈窕淑女，美若天仙，一顾倾城，才智国人，出水芙蓉，阿娇金屋，闭月羞花，逞娇呈美，春暖花香，春色满园……', time: 50},
-    // {type: Print.ACTION.BR, num: 2},
-    // {type: Print.ACTION.TEXT, text: '给你们看张她的照片吧~'},
-    // {type: Print.ACTION.WAIT, time: 900},
-    // {type: Print.ACTION.IMG, src: 'img/bishi2.jpg', id: "cat", style: "width: 50%;display: block;margin-left: auto;margin-right: auto;margin-top: 20px;margin-bottom: 20px;"},
-    // {type: Print.ACTION.WAIT, time: 900},
-    // {type: Print.ACTION.TEXT, text: '是不是美美哒~'}
+    {type: Print.ACTION.TEXT, text: '目前仅能打印文字，待开发【退格，图片，延迟等待，等等...】',time:200},
 ];
 
 
